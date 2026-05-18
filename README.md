@@ -1,16 +1,39 @@
-# React + Vite
+# 🏡 Modern Real Estate UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Real Estate landing page built using React and Vite. This project focuses on creating a clean user interface with smooth user experience, reusable components, and modern frontend practices.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎯 Responsive design for mobile, tablet, and desktop
+- 🏠 Hero section with search functionality
+- 📊 Animated statistics counter
+- 🎠 Property slider/carousel
+- 📑 Accordion-based value section
+- 📞 Contact form with API integration
+- ⚡ Built using reusable React components
+- 🎨 Modern UI with custom styling
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
+- Axios
+- Swiper
+- React Icons
+- MockAPI
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+src/
+ ├── components/
+ │   ├── Header
+ │   ├── Hero
+ │   ├── Residencies
+ │   ├── Value
+ │   ├── Contact
+ │   └── Footer
+ │
+ ├── assets/
+ └── App.jsx
